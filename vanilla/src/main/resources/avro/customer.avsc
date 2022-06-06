@@ -1,0 +1,31 @@
+{
+  "type": "record",
+  "name": "Customer",
+  "namespace": "com.isaolmez.kafkaguide.vanilla.avro.models",
+  "fields": [
+    {
+      "name": "firstName",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "lastName",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "age",
+      "type": [
+        "null",
+        "int"
+      ],
+      "default": null
+    }
+  ]
+}
