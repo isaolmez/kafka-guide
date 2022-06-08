@@ -7,7 +7,6 @@ public class Runner {
 
     public static void main(String[] args) {
         SimpleProducer simpleProducer = new SimpleProducer();
-        log.info("Send");
 //        simpleProducer.waitForLingerMs();
         simpleProducer.waitForLingerMsThenSendWhenBatchSize();
         try {
